@@ -1,0 +1,6 @@
+Manual test plan:
+
+I'm going the simplistic route and just exploring the game by playing it and seeing if there are any obvious bugs.
+
+The see all bots button does not work when clicked (it does nothing)
+User wins are logging as losses(and losses are still losses)
