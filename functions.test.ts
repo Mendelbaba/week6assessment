@@ -2,10 +2,15 @@ const {shuffleArray} = require('./utils')
 
 describe('shuffleArray should', () => {
     test('should be an array', () => {
-        expect(shuffleArray).toBe(Array);
+        const testArray = [4, 5, 10, 11, 13]
+        const testVar = shuffleArray(testArray)
+        expect(Array.isArray(testVar)).toBe(true)
+    
   
   });
   test('should be all the same items in the array', () => {
-    expect(shuffleArray.data).toBe(shuffleArray);
+    const testArray = [4, 5, 10, 11, 13]
+    const testVar = shuffleArray(testArray)
+    expect(testArray.length).toEqual(testVar.length);
   })
 })
